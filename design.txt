@@ -1,0 +1,12 @@
+Title: Webcam photo sharer
+Description: create an app to start computer camera, capture and upload user image then generate shareable link
+Objects:
+    Webcam:
+        start()
+        stop()
+        capture()
+    FileSharer:
+        filepath
+        api
+        share()
+    
